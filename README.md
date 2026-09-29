@@ -18,4 +18,7 @@ Figure2:Checking status of Sysmon
 
 ## Wazuh Server setup and configuration 
 In Progresses
-
+Problem faced for this phase: the issue was that the Server(Ubuntu)and the Windows machine are on a VM, so each of them runs on an isolated network, and they are not able to connect to each other.
+To solve the issue, what I did was add port forwarding to the Ubuntu server and then tried to SSH into the server, but this did not work.
+The other option I tried was to create a network of my own and add the two machines to the network so they could communicate with each other, and this option worked, and I was able to connect to the server via SSH. 
+More information and updates on the project will come soon!!!!
